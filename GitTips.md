@@ -9,3 +9,14 @@ git commit is for getting everything in the delivery pack. in here we normally a
 git push is to actually upload whatever you commited into the remote repo (GitHub) its the final stage you have before actually sending anythin. -u is of upstream and it is used at the beginning to keep uploading files to the same branch (In this case we stated was main)
 
 git remote add origin https://github.com/eduant2607/Random_Projects.git That is for creating the  remote add (origin) that is the alias of the whole URL we see up. Can be anything but origin is mainly used
+
+git init
+git remote add origin <repository_url>
+git branch -M main
+git add .
+git commit -m 'Your commit message here!'
+git status
+git push -u origin main
+
+This would be the typical flow of action into ceating a new repo!
+
